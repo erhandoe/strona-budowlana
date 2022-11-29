@@ -1,0 +1,28 @@
+.parallax,
+.parallax-2,
+.parallax-3,
+.parallax-4 {
+  position: relative;
+  opacity: 1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+}
+
+.parallax {
+  background-image: url('/assets/background-1.jpg');
+}
+
+.parallax-2 {
+  background-image: url('/assets/background-2.jpg');
+}
+
+.parallax-3 {
+  background-image: url('/assets/background-3.jpg');
+}
+
+.parallax-4 {
+  background-image: url('/assets/background-4.jpg');
+}
