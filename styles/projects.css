@@ -19,9 +19,12 @@
   /* height: 500px; */
   border-radius: 10px;
   /* height: fit-content; */
-  background-color: transparent;
+  background-color: rgb(32, 34, 37);
+  /* background: inherit; */
   width: auto;
   padding: 0px;
+  /* max-height: 600px; */
+  /* max-width: 900px; */
 }
 
 /* Hide the images by default */
@@ -30,16 +33,22 @@
   /* max-height: 500px; */
   /* height: fit-content; */
   width: auto;
-  background-color: transparent;
+  max-height: 600px;
+  /* background-color: transparent; */
+  border-radius: 10px;
+  background-color: rgb(32, 34, 37);
+  /* background: inherit; */
 }
 
 .mySlides img {
   /* max-height: 500px; */
-  width: 100%;
+  /* width: 100%; */
   border-radius: 10px;
-  height: auto;
-  width: auto;
-  background-color: transparent;
+  max-height: 600px;
+  max-width: 1000px;
+  /* max-height: 100%; */
+  /* max-width: 100%; */
+  /* background-color: transparent; */
 }
 
 /* Next & previous buttons */
